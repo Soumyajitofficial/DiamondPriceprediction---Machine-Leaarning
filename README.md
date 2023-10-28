@@ -19,3 +19,12 @@ There are 10 independent variables (including `id`):
 
 Target variable:
 * `price`: Price of the given Diamond.
+
+
+
+
+
+
+Linear Regression, Lasso, and Ridge appear to perform similarly in terms of RMSE, MAE, and R2 score. They provide relatively accurate predictions and explain a significant portion of the variance in the data.
+Elastic Net has a higher RMSE and MAE and a slightly lower R2 score, suggesting that it may not perform as well as the other models in this specific context.
+The choice of the best model may depend on other considerations such as interpretability, feature importance, and computational efficiency. Further evaluation and possibly hyperparameter tuning may be necessary to make a final model selection.
